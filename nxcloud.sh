@@ -1,5 +1,5 @@
 #!/bin/bash
-# Nextcloud Loud Updater - Zenity GUI Edition
+# nxcloud - Zenity GUI Edition
 # Version 1.3
 # Requires: zenity, ssh, sshpass, sudo access on remote server
 
@@ -10,12 +10,12 @@ if ! command -v sshpass &> /dev/null; then
 fi
 
 # Main log directory and file
-LOG_DIR="$HOME/nextloudupdater"
+LOG_DIR="$HOME/nxcloud"
 mkdir -p "$LOG_DIR"
-MAIN_LOG="$LOG_DIR/nextcloud_updater_$(date +%Y%m%d_%H%M%S).log"
+MAIN_LOG="$LOG_DIR/nxcloud_$(date +%Y%m%d_%H%M%S).log"
 
 # Initialize main log
-echo "Nextcloud Loud Updater - $(date)" > "$MAIN_LOG"
+echo "nxcloud - $(date)" > "$MAIN_LOG"
 echo "=================================" >> "$MAIN_LOG"
 
 # Function to log messages with timestamp
@@ -127,7 +127,7 @@ run_remote_command() {
 
 # Main menu loop
 while true; do
-    choice=$(zenity --list --title="Nextcloud Loud Updater" \
+    choice=$(zenity --list --title="nxcloud" \
         --width=600 --height=400 \
         --column="Action" --column="Description" \
         "1" "Run Nextcloud Updater" \
@@ -175,7 +175,7 @@ while true; do
             log "User exited the updater."
             zenity --info --width=400 \
                 --title="Exit" \
-                --text="Exiting Nextcloud Loud Updater.\nLogs saved at:\n$MAIN_LOG" \
+                --text="Exiting nxcloud.\nLogs saved at:\n$MAIN_LOG" \
                 2>/dev/null
             exit 0
             ;;
