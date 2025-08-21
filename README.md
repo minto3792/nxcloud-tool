@@ -13,9 +13,10 @@ It provides a **Zenity-based menu interface** with progress bars and logs, makin
   1. Run Nextcloud Updater  
   2. Maintenance Repair  
   3. Database Optimization (add missing indices)  
-  4. Disable Maintenance Mode  
-  5. View Logs  
-  6. Exit  
+  4. Disable Maintenance Mode
+  5. update All Nextcloud Apps
+  6. View Logs  
+  7. Exit  
 - **Logs saved automatically** for transparency and debugging  
 - **Error handling** with clear messages  
 
