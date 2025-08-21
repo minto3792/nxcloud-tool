@@ -1,6 +1,6 @@
 # NXCloud (Zenity GUI Edition)
 
-**Version 1.3**  
+**Version 1.0**  
 A libre (`nextcloud-aio-nextcloud`) easier.  
 It provides a **Zenity-based menu interface** with progress bars and logs, making updates more transparent and troubleshooting easier.  
 
