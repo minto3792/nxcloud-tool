@@ -42,6 +42,6 @@ This script is **only compatible with Nextcloud AIO instances**.
 
 Clone this repository or download the script:  
 ```bash
-git clone https://github.com/minto3792/nxcloud/blob/325a075993ae04b442161e1872c6409e92db9441/nxcloud.sh
+git clone https://github.com/minto3792/nxcloud.git
 cd nxcloud
-chmod +x nextcloud_updater_menu.sh
+chmod +x nxcloud.sh
