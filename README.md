@@ -1,4 +1,4 @@
-# Nextcloud AIO Management Tool
+# NXcloud Management Tool For Nextcloud AIO
 
 A hybrid GUI/CLI tool for managing Nextcloud All-in-One (AIO) Docker installations with both graphical (Zenity) and command-line interfaces.
 
