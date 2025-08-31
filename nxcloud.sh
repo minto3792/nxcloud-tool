@@ -563,7 +563,7 @@ main_menu() {
     while true; do
         local choice
         choice=$(zenity --list \
-            --title="Nextcloud AIO Management" \
+            --title="NXcloud Management Tool for Nextcloud AIO" \
             --width=700 --height=500 \
             --column="Option" \
             "Configure SSH Connection" \
@@ -605,7 +605,7 @@ main_menu() {
 # CLI Menus
 cli_main_menu() {
     while true; do
-        echo -e "\n--- Nextcloud AIO Management ---"
+        echo -e "\n--- NXcloud Management Tool for Nextcloud AIO ---"
         options=(
             "Configure SSH Connection"
             "Test SSH Connection"
@@ -704,10 +704,10 @@ check_dependencies
 load_config
 
 if $USE_GUI; then
-    zenity --info --text="Welcome to Nextcloud AIO Management Tool\n\nPlease configure your SSH connection first." \
+    zenity --info --text="Welcome to NXcloud Management Tool For Nextcloud AIO\n\nPlease configure your SSH connection first." \
            --width=400 2>/dev/null
 else
-    echo "Welcome to Nextcloud AIO Management Tool"
+    echo "Welcome to NXcloud Management Tool For Nextcloud AIO"
 fi
 
 # Initial config if missing
