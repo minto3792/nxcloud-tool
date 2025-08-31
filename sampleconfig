@@ -1,0 +1,6 @@
+SSH_ADDRESS="192.168.1.111"
+SSH_USERNAME="username"
+SSH_PORT="22"
+REMOTE_SUDO_PASSWORD="usernamepassword"
+NEXTCLOUD_PATH="/var/www/nextcloud"
+NEXTCLOUD_DATA_PATH="/var/www/nextcloud/data"
