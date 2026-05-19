@@ -35,7 +35,7 @@ wget https://raw.githubusercontent.com/minto3792/nxcloud-tool/refs/heads/main/nx
 
 2. Make the script executable:
 ```bash
-chmod +x nxcloud-tool.sh
+chmod +x nxcloud.sh
 ```
 
 3. Install dependencies:
@@ -54,12 +54,12 @@ sudo dnf install sshpass zenity
 
 ### GUI Mode (Default)
 ```bash
-./nxcloud-tool.sh
+./nxcloud.sh
 ```
 
 ### CLI Mode
 ```bash
-./nxcloud-tool.sh --cli
+./nxcloud.sh --cli
 ```
 
 Or choose mode at startup when prompted.
