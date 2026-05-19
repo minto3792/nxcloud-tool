@@ -30,7 +30,7 @@ This tool is my contribution back to the open-source community that has provided
 
 1. Download the script to your local machine:
 ```bash
-wget https://raw.githubusercontent.com/yourusername/nextcloud-aio-management-tool/main/nxcloud-tool.sh
+wget https://github.com/minto3792/nxcloud-tool/blob/main/nxcloud.sh
 ```
 
 2. Make the script executable:
